@@ -36,4 +36,8 @@ public class Login extends ActionBarActivity {
 
         return super.onOptionsItemSelected(item);
     }
+
+    private boolean testGitPush() {
+        return false;
+    }
 }
