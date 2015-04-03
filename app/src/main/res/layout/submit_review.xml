@@ -1,6 +1,90 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical" android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:weightSum="1">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/submit_review"
+        android:id="@+id/textView"
+        android:textSize="50sp"/>
+
+
+    <RatingBar
+        android:layout_width="383dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/ratingBar"
+        android:layout_gravity="center_horizontal" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/overall_rating_text"
+        android:id="@+id/overall_rating"
+        android:textSize="20sp"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/grade"
+        android:id="@+id/grade_text"
+        android:textSize="20sp"/>
+    <EditText android:layout_width="wrap_content"
+        android:id="@+id/grade_input"
+        android:hint="@string/hint_grade"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        >
+    </EditText>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/out_of_5_text"
+        android:id="@+id/out_of_5"
+        android:textSize="20sp"/>
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Workload:"
+        android:id="@+id/workload"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/hrs_per_week"
+        android:id="@+id/hrs"
+        android:textSize="20sp"/>
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText"
+        android:layout_gravity="center_horizontal" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Button"
+        android:id="@+id/button" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Button"
+        android:id="@+id/button2"
+        android:layout_gravity="center_horizontal" />
+
+    <RatingBar
+        android:layout_width="380dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/ratingBar2" />
 
 </LinearLayout>

@@ -7,4 +7,11 @@
     <string name="password">Password</string>
     <string name="login_button">LOG IN</string>
     <string name="signup_button">SIGN UP</string>
+    <string name="submit_review">Submit Review</string>
+    <string name="overall_rating_text">Overall Rating</string>
+    <string name="grade">Grade:</string>
+    <string name="hint_grade">5.0</string>
+
+    <string name="out_of_5_text">/5.0</string>
+    <string name="hrs_per_week">Hours/Week</string>
 </resources>
