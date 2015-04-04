@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+
+
+
+     <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="120dp"
+         android:orientation="horizontal">
+
+         <ImageButton
+             android:layout_width="120dp"
+             android:layout_height="120dp"
+             android:id="@+id/userImg"
+             android:layout_marginLeft="25dp"
+             android:src="@drawable/user1" />
+
+
+
+         <LinearLayout
+             android:layout_width="450dp"
+             android:layout_height="100dp"
+             android:orientation="vertical"
+             android:layout_marginTop="10dp"
+             android:layout_marginLeft="20dp">
+             <LinearLayout
+                 android:layout_width="match_parent"
+                 android:layout_height="30dp"
+                 android:orientation="horizontal">
+
+                 <TextView
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:text="User 1"
+                     android:layout_gravity="center_vertical"
+                     android:layout_marginTop="1dp"
+                     android:textStyle="bold" />
+
+                 <RatingBar
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     style="?android:attr/ratingBarStyleSmall"
+                     android:numStars="5"
+                     android:rating="3.5"
+                     android:layout_gravity="center_vertical"
+                     android:layout_marginLeft="10dp" />
+
+                 <ImageButton
+                     android:layout_width="27dp"
+                     android:layout_height="match_parent"
+                     android:layout_marginLeft="50dp"
+                     android:id="@+id/like"
+                     android:src="@drawable/likesign"
+                     android:layout_marginTop="5dp" />
+                 <TextView
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:text="989"
+                     android:layout_gravity="center_vertical"
+                     android:layout_marginTop="1dp" />
+
+             </LinearLayout>
+
+
+
+
+
+
+
+
+             <TextView
+                 android:layout_width="400dp"
+                 android:layout_height="70dp"
+                 android:text="Ay, caramba! This course is so amazing,  you all gotta take this!!"
+                 android:id="@+id/userRv"
+                 android:layout_marginBottom="20dp" />
+
+
+         </LinearLayout>
+
+
+
+         </LinearLayout>
+
+
+
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
