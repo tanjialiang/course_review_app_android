@@ -1,5 +1,6 @@
 <resources>
     <string name="app_name">First Class</string>
+    <!-- login page strings-->
 
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
@@ -7,11 +8,32 @@
     <string name="password">Password</string>
     <string name="login_button">LOG IN</string>
     <string name="signup_button">SIGN UP</string>
-    <string name="submit_review">Submit Review</string>
-    <string name="overall_rating_text">Overall Rating</string>
-    <string name="grade">Grade:</string>
-    <string name="hint_grade">5.0</string>
 
+    <!-- submit review page strings-->
+    <string name="submit_review">Submit Review</string>
+    <string name="overall_rating_text">Overall Rating: </string>
+    <string name="grade">Grade:</string>
+    <string name="course_content">Course Content</string>
     <string name="out_of_5_text">/5.0</string>
     <string name="hrs_per_week">Hours/Week</string>
+    <string name="hint_grade">5.0</string>
+    <string name="hint_workload">15.0</string>
+    <string name="hint_comments">Leave your comments here:</string>
+
+    <string name="prof_rating">Professor Rating</string>
+    <string name="prof_sample">Bob Singh</string>
+    <string name="comment">Comments</string>
+
+    <string name="submit">Submit</string>
+    <string name="cancel">Cancel</string>
+
+    <string-array name="semesters_array">
+        <item>2013 Fall</item>
+        <item>2014 Spring</item>
+        <item>2014 Fall</item>
+        <item>2015 Spring</item>
+
+    </string-array>
+
+
 </resources>
