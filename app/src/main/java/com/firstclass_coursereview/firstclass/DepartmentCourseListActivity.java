@@ -1,35 +1,37 @@
 package com.firstclass_coursereview.firstclass;
 
-import android.content.Intent;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
-import android.view.View;
-import android.widget.Button;
+import android.widget.ListAdapter;
+import android.widget.ListView;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
 
 
-public class LoginActivity extends ActionBarActivity {
+public class DepartmentCourseListActivity extends ActionBarActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_login);
+        setContentView(R.layout.activity_department_course_list);
 
-        Button loginButton = (Button) findViewById(R.id.loginButton);
-        loginButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(LoginActivity.this, DepartmentListActivity.class);
-                startActivity(intent);
-            }
-        });
+        String[] strArray = {"one", "two", "three", "four", "five", "six", "seven", "eight",
+        "nine", "ten", "eleven", "twelve", "thirteen"};
+        List<String> strList = Arrays.asList(strArray);
+        ListView courseListView = (ListView) findViewById(R.id.courseListView);
+        ListAdapter courseListAdapter = new TextTextListArrayAdapter(this, strList);
+        courseListView.setAdapter(courseListAdapter);
     }
+
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.menu_login, menu);
+        getMenuInflater().inflate(R.menu.menu_department_course_list, menu);
         return true;
     }
 
@@ -46,13 +48,5 @@ public class LoginActivity extends ActionBarActivity {
         }
 
         return super.onOptionsItemSelected(item);
-    }
-
-    public void onClickLogin(View view) {
-
-    }
-
-    public void onClickSignup(View view) {
-
     }
 }

@@ -8,4 +8,5 @@
     <string name="login_button">LOG IN</string>
     <string name="signup_button">SIGN UP</string>
     <string name="title_activity_department_list">Departments</string>
+    <string name="title_activity_department_course_list">Department Course List</string>
 </resources>

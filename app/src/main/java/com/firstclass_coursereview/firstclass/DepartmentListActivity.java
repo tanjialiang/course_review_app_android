@@ -1,5 +1,6 @@
 package com.firstclass_coursereview.firstclass;
 
+import android.content.Intent;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Menu;
@@ -32,6 +33,8 @@ public class DepartmentListActivity extends ActionBarActivity {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                 // TODO go to the department page
+                Intent intent = new Intent(DepartmentListActivity.this, DepartmentCourseListActivity.class);
+                startActivity(intent);
             }
         });
         // TODO DELETE the demon array
