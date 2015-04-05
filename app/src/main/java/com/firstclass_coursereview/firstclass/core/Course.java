@@ -2,6 +2,8 @@ package com.firstclass_coursereview.firstclass.core;
 
 import com.firstclass_coursereview.firstclass.core.exceptions.ContentNotLoadedException;
 
+import java.util.List;
+
 /**
  * Created by jialiangtan on 4/3/15.
  */
@@ -12,7 +14,6 @@ public class Course {
     private float rating = -1;
     private List<Instructor> instructorList;
     private List<CourseReview> reviewList;
-
 
     /**
      * construct the course object
