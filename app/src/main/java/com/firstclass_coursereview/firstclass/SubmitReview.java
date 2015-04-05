@@ -16,7 +16,7 @@ public class SubmitReview extends Activity {
         setContentView(R.layout.submit_review);
 
 
-        Spinner spinner = (Spinner) findViewById(R.id.spinner);
+        Spinner spinner = (Spinner) findViewById(R.id.semester_spinner);
         // Create an ArrayAdapter using the string array and a default spinner layout
         ArrayAdapter<CharSequence> adapter = ArrayAdapter.createFromResource(this,
                 R.array.semesters_array, android.R.layout.simple_spinner_item);

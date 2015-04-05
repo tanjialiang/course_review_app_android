@@ -8,7 +8,7 @@
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
         <activity
-            android:name=".DepartmentListActivity"
+            android:name=".LoginActivity"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -16,15 +16,12 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-<<<<<<< HEAD
         <activity android:name=".SubmitReview"
             android:label="SubmitReview"></activity>
-=======
         <activity
-            android:name=".LoginActivity"
+            android:name=".DepartmentListActivity"
             android:label="@string/title_activity_department_list" >
         </activity>
->>>>>>> fe713f16cf069def16399a0306d4a8dea89d3567
     </application>
 
 </manifest>
